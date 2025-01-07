@@ -44,8 +44,8 @@
 
 
 #ifdef RGB_MATRIX_ENABLE
-#define RGBLIGHT_LED_COUNT 35    // Number of LEDs
-#define RGBLIGHT_LED_COUNT 35    // Number of LEDs
+#define RGBLIGHT_LED_COUNT 36    // Number of LEDs
+#define RGBLIGHT_LED_COUNT 36    // Number of LEDs
 #define RGB_MATRIX_LED_COUNT RGBLIGHT_LED_COUNT
 #endif
 
@@ -53,7 +53,7 @@
     #undef RGBLIGHT_LED_COUNT
 
 	//#define RGBLIGHT_EFFECT_BREATHING
-	#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+	//#define RGBLIGHT_EFFECT_RAINBOW_MOOD
 	//#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
 	//#define RGBLIGHT_EFFECT_SNAKE
 	//#define RGBLIGHT_EFFECT_KNIGHT
@@ -63,9 +63,9 @@
 	//#define RGBLIGHT_EFFECT_ALTERNATING
 	//#define RGBLIGHT_EFFECT_TWINKLE
 
-    #define RGBLIGHT_LED_COUNT 70
+    #define RGBLIGHT_LED_COUNT 72
 	#undef RGBLED_SPLIT
-	#define RGBLED_SPLIT { 35, 35 } // haven't figured out how to use this yet
+	#define RGBLED_SPLIT { 36, 36 } // haven't figured out how to use this yet
 
 	//#define RGBLIGHT_LED_COUNT 30
     #undef RGBLIGHT_LIMIT_VAL
